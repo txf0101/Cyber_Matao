@@ -29,4 +29,4 @@
 
 ## 当前结论
 
-公开包已经完成隐私清洗、审计、打包和提交，并准备写入 `txf0101/Cyber_Matao`。受当前连接器能力限制，仓库内提供 `release/matao_tone_pack_v1.0.zip` 作为可下载版本包；若需要 GitHub Releases 页面中的正式 release 对象，可在已登录 GitHub CLI 的环境中运行 `scripts/publish_github.sh`。
+公开包已经完成隐私清洗、审计、打包和提交，并写入公开仓库 `txf0101/Cyber_Matao`。仓库内提供 `release/matao_tone_pack_v1.0.zip` 作为可下载版本包，压缩包 SHA256 为 `7f40fef16f85906760c8a81966377572b33b3af3f492565d1644b22dd448352f`。当前连接器没有 GitHub Releases 对象创建接口；若需要 Releases 页面中的正式对象，可在已登录 GitHub CLI 的环境中运行 `scripts/publish_github.sh`。
