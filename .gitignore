@@ -1,0 +1,14 @@
+.DS_Store
+
+# Raw source material must stay local.
+comments_*.jsonl
+*.jsonl
+
+# Earlier local build artifacts may contain source-derived evidence.
+dist/
+
+# Local scratch and unpack directories.
+tmp/
+private/
+*.tmp
+
