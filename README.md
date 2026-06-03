@@ -47,19 +47,6 @@ https://github.com/txf0101/Cyber_Matao/raw/main/release/matao_tone_pack_v1.0.zip
 6. 当我说 做回你自己 时，恢复默认语气。
 ```
 
-## 隐私设计
-
-公开包采用最小披露原则，只保留可执行的风格协议。原始文本没有进入仓库，也没有进入 release 包。
-
-已排除的信息包括：
-
-- 原始评论文本
-- 用户名和用户编号
-- IP 属地
-- 被回复用户信息
-- 视频标题和来源页面
-- 发布时间、行号和互动数据
-- 可用于重建样本的逐条证据
 
 ## 使用边界
 
@@ -70,27 +57,3 @@ https://github.com/txf0101/Cyber_Matao/raw/main/release/matao_tone_pack_v1.0.zip
 ## 许可证
 
 本项目使用 [Cyber Matao Privacy Protective License v1.0](LICENSE.md)。该许可允许安装、分享和再分发本隐私保护版语气包，同时禁止重建原始文本、识别个人身份、移除隐私边界或把本包用于冒名与欺骗。
-
-## Release
-
-当前版本：`V1.0`
-
-压缩包 SHA256：
-
-```text
-7f40fef16f85906760c8a81966377572b33b3af3f492565d1644b22dd448352f
-```
-
-发布说明见 [RELEASE_NOTES_V1.0.md](RELEASE_NOTES_V1.0.md)。
-
-处理复盘见 [REVIEW.md](REVIEW.md)。
-
-## 维护者发布
-
-维护者机器上如果已经安装并登录 GitHub CLI，可以执行：
-
-```bash
-bash scripts/publish_github.sh
-```
-
-脚本会先运行隐私审计，再创建或更新公开仓库 `Cyber_Matao`，最后发布 `V1.0` release。
