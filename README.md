@@ -75,6 +75,12 @@ https://github.com/txf0101/Cyber_Matao/raw/main/release/matao_tone_pack_v1.0.zip
 
 当前版本：`V1.0`
 
+压缩包 SHA256：
+
+```text
+7f40fef16f85906760c8a81966377572b33b3af3f492565d1644b22dd448352f
+```
+
 发布说明见 [RELEASE_NOTES_V1.0.md](RELEASE_NOTES_V1.0.md)。
 
 处理复盘见 [REVIEW.md](REVIEW.md)。
